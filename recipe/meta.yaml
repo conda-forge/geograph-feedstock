@@ -18,7 +18,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python ==3.8
   run:
     - folium
     - geopandas
@@ -26,7 +26,7 @@ requirements:
     - networkx
     - numpy
     - pandas
-    - python >=3.8
+    - python ==3.8
     - rasterio ==1.1.8
     - rtree
     - shapely
